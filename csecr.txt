@@ -22,3 +22,5 @@ SET price_t = price_t * 0.75
 WHERE country_t = 'Россия';
 SELECT * FROM TradeCompany.tovar;
 
+uuid binary(16) primary key not null default (uuid_to_bin(uuid())),
+insert into employes (uuid, name, last_name, second_name, birthdate, phone, city, atreet, house, apart) values (UUID_TO_BIN('3184292e-e49b-11ee-859f-00155df54038'), 'Петрова', 'Анна', 'Сергеевна', '2004-04-09', '89765676677', 'Москва', 'Иванова', '8', '34');
